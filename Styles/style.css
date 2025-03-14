@@ -105,7 +105,6 @@ a:hover {
 
 h2 {
     font-size: 3rem;
-    margin: 0rem 4rem;
     justify-self: center;
 }
 
@@ -113,8 +112,8 @@ h2 {
     justify-self: center;
     width: 100%;
     padding: 6rem;
-    justify-items: center;
     display: flex;
+    justify-items: center;
     flex-direction: row;
 }
 
@@ -155,22 +154,49 @@ h2 {
     pointer-events: none;
 }
 
+.communication-container {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    justify-self: center;
-    align-items: flex-start;
-    align-content: space-between;
-    justify-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    padding: 1rem 4rem;
+    gap: 1rem;
 }
     
 .contact-text {
     font-size: 1rem;
-    padding-left: 2rem;
+
 }
+
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.social-image {
+    width: 15%;
+    justify-self: center;
+}
+
 
 footer {
     padding: 2rem;
