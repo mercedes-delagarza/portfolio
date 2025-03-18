@@ -158,6 +158,7 @@ h2 {
     display: flex;
     align-content: space-between;
     justify-content: center;
+    align-items: flex-start;
     padding: 2rem 0rem;
 }
 
@@ -168,11 +169,11 @@ h2 {
     align-items: center;
     width: 100%;
     gap: 1rem;
+    padding-top: 0;
 }
     
 .contact-text {
     font-size: 1rem;
-
 }
 
 .socials-container {
@@ -182,7 +183,6 @@ h2 {
     align-items: center;
     width: 100%;
     gap: 1rem;
-
 }
 
 .social-buttons {
